@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <event-mouse-enter-exit-actor comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <setanim comment="false" x="26" y="42">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="EndlessButtonHover"/>
+                </setanim>
+                <if comment="false" x="26" y="69">
+                    <group eventID="1" id="-1">
+                        <play-sound4 comment="false" x="37" y="94">
+                            <int id="0" val="0"/>
+                            <sound eid="89" id="1"/>
+                        </play-sound4>
+                    </group>
+                    <get-game-val-8 comment="false" id="0" x="0" y="0"/>
+                </if>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="0"/>
+        </event-mouse-enter-exit-actor>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <event-mouse-enter-exit-actor comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <setanim comment="false" x="26" y="42">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="EndlessButtonDefault"/>
+                </setanim>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="1"/>
+        </event-mouse-enter-exit-actor>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <event-mouse-enter-exit-actor comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <setanim comment="false" x="26" y="42">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="EndlessButtonClicked"/>
+                </setanim>
+                <if comment="false" x="26" y="69">
+                    <group eventID="3" id="-1">
+                        <play-sound-channel comment="false" x="37" y="94">
+                            <int id="0" val="0"/>
+                            <sound eid="96" id="1"/>
+                            <get-game-val-5 comment="false" id="2" x="0" y="0"/>
+                        </play-sound-channel>
+                        <set-volume-channel comment="false" x="37" y="126">
+                            <int id="0" val="30"/>
+                            <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                        </set-volume-channel>
+                    </group>
+                    <get-game-val-8 comment="false" id="0" x="0" y="0"/>
+                </if>
+                <scene-change-through comment="false" x="26" y="163">
+                    <scene eid="7" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="2"/>
+                </scene-change-through>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="2"/>
+        </event-mouse-enter-exit-actor>
+    </group>
+    <group eventID="3" id="-1"/>
+    <group eventID="4" id="0">
+        <event-mouse-enter-exit-actor comment="false" x="15" y="15">
+            <group eventID="4" id="-1">
+                <setanim comment="false" x="26" y="42">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="EndlessButtonHover"/>
+                </setanim>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="4"/>
+        </event-mouse-enter-exit-actor>
+    </group>
+    <group eventID="4" id="-1"/>
+</groups>

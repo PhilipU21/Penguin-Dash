@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pack>
+    <custom-block blocktag="custom-97" blocktype="ACTION" code=".say(&quot;goLeft&quot;, &quot;_customBlock_&quot;);" desc="" global="false" gui="Missing" id="97" message="" name="" oid="-1" return="void" shared="false" snippetID="39">
+        <blank name="@block.thisactor" order="0" type="actor"/>
+    </custom-block>
+    <music atlasID="0" desc="" id="81" loop="true" name="01  Game Start" oid="-1" pan="0" shared="false" stream="true" type="mp3" volume="1"/>
+    <music atlasID="0" desc="" id="82" loop="true" name="02  The Skaters Waltz" oid="-1" pan="0" shared="false" stream="true" type="mp3" volume="1"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="5" fixedrot="false" fric="0.2" gid="3" id="11" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="AboutUsButton" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="12" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="12" name="AboutUsButton" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="AboutUsButtonDefault" numframes="1" originx="123" originy="32" sync="false" version="2" width="247">
+            <poly data="4,0,64,247,64,247,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="AboutUsButtonDefault" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="64" id="1" loop="true" name="AboutUsButtonHover" numframes="1" originx="123" originy="32" sync="false" version="2" width="247">
+            <poly data="4,0,64,247,64,247,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="AboutUsButtonHover" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="64" id="2" loop="true" name="AboutUsButtonClicked" numframes="1" originx="123" originy="32" sync="false" version="2" width="247">
+            <poly data="4,0,64,247,64,247,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="AboutUsButtonClicked" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="12" fixedrot="false" fric="0.2" gid="3" id="21" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="AboutUsWindow" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="22" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="22" name="AboutUsWindow" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="248" id="0" loop="true" name="AboutUsWindow" numframes="1" originx="137" originy="124" sync="false" version="2" width="274">
+            <poly data="4,0,248,274,248,274,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="AboutUsWindow" rest="0.0" sensor="true"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="49" fixedrot="true" fric="0.2" gid="3" id="102" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Airplane" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="103" static="false">
+        <snippets>
+            <s enabled="true" id="52">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="103" name="Airplane" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="78" id="0" loop="true" name="Animation 0" numframes="1" originx="63" originy="39" sync="false" version="2" width="127">
+            <poly data="4,0,78,127,78,127,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <music atlasID="0" desc="" id="96" loop="true" name="Button click" oid="-1" pan="0" shared="false" stream="true" type="mp3" volume="1"/>
+    <music atlasID="0" desc="" id="89" loop="true" name="Button hover" oid="-1" pan="0" shared="false" stream="true" type="mp3" volume="1"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="13" fixedrot="false" fric="0.2" gid="3" id="23" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="CloseAboutUs" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="24" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="24" name="CloseAboutUs" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="72" id="0" loop="true" name="CloseAboutUsDefault" numframes="1" originx="36" originy="36" sync="false" version="2" width="72">
+            <poly data="4,0,72,72,72,72,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="true"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="72" id="1" loop="true" name="CloseAboutUsHover" numframes="1" originx="36" originy="36" sync="false" version="2" width="72">
+            <poly data="4,0,72,72,72,72,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="CloseAboutUsHover" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="72" id="2" loop="true" name="CloseAboutUsClicked" numframes="1" originx="36" originy="36" sync="false" version="2" width="72">
+            <poly data="4,0,72,72,72,72,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="CloseAboutUsClicked" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="18" fixedrot="false" fric="0.2" gid="3" id="31" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="CloseControlsWindow" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="32" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="32" name="CloseControlsWindow" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="72" id="0" loop="true" name="CloseControlsWindow" numframes="1" originx="36" originy="36" sync="false" version="2" width="72">
+            <poly data="4,0,72,72,72,72,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="CloseControlsWindow" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="72" id="1" loop="true" name="CloseControlsWindowHover" numframes="1" originx="36" originy="36" sync="false" version="2" width="72">
+            <poly data="4,0,72,72,72,72,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="CloseControlsWindowHover" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="72" id="2" loop="true" name="CloseControlsWindowClicked" numframes="1" originx="36" originy="36" sync="false" version="2" width="72">
+            <poly data="4,0,72,72,72,72,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="CloseControlsWindowClicked" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="14" fixedrot="false" fric="0.2" gid="3" id="25" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="CloseLevelsWindow" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="26" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="26" name="CloseLevelsWindow" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="72" id="0" loop="true" name="CloseLevelWindowsDefault" numframes="1" originx="36" originy="36" sync="false" version="2" width="72">
+            <poly data="4,0,72,72,72,72,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="true"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="72" id="1" loop="true" name="CloseLevelWindowsHover" numframes="1" originx="36" originy="36" sync="false" version="2" width="72">
+            <poly data="4,0,72,72,72,72,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="CloseLevelWindowsHover" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="72" id="2" loop="true" name="CloseLevelWindowsClicked" numframes="1" originx="36" originy="36" sync="false" version="2" width="72">
+            <poly data="4,0,72,72,72,72,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="CloseLevelWindowsClicked" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="38" fixedrot="false" fric="0.2" gid="3" id="65" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="CloseLevelsWindowInGame" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="66" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="66" name="CloseLevelsWindowInGame" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="72" id="0" loop="true" name="CloseLevelWindowsDefault" numframes="1" originx="36" originy="36" sync="false" version="2" width="72">
+            <poly data="4,0,72,72,72,72,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="true"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="72" id="1" loop="true" name="CloseLevelWindowsHover" numframes="1" originx="36" originy="36" sync="false" version="2" width="72">
+            <poly data="4,0,72,72,72,72,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="CloseLevelWindowsHover" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="72" id="2" loop="true" name="CloseLevelWindowsClicked" numframes="1" originx="36" originy="36" sync="false" version="2" width="72">
+            <poly data="4,0,72,72,72,72,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="CloseLevelWindowsClicked" rest="0.0" sensor="true"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="32" fixedrot="false" fric="0.2" gid="3" id="55" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="ClosePauseWindow" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="56" static="false">
+        <snippets>
+            <s enabled="true" id="34">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="ClosePauseWindowDefault"/>
+                <prop id="4" list="0" val="ClosePauseWindowClicked"/>
+                <prop id="5" list="0" val="false"/>
+                <prop id="6" list="0" val="ClosePauseWindowHover"/>
+                <prop id="7" list="0" val=""/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="56" name="ClosePauseWindow" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="72" id="0" loop="true" name="ClosePauseWindowDefault" numframes="1" originx="36" originy="36" sync="false" version="2" width="72">
+            <poly data="4,0,72,72,72,72,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="true"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="72" id="1" loop="true" name="ClosePauseWindowHover" numframes="1" originx="36" originy="36" sync="false" version="2" width="72">
+            <poly data="4,0,72,72,72,72,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="ClosePauseWindowHover" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="72" id="2" loop="true" name="ClosePauseWindowClicked" numframes="1" originx="36" originy="36" sync="false" version="2" width="72">
+            <poly data="4,0,72,72,72,72,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="ClosePauseWindowClicked" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="24" fixedrot="false" fric="0.2" gid="3" id="41" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="CloseSettingsHomeWindow" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="42" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="42" name="CloseSettingsHomeWindow" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="72" id="0" loop="true" name="CloseSettingsDefault" numframes="1" originx="36" originy="36" sync="false" version="2" width="72">
+            <poly data="4,0,72,72,72,72,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="true"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="72" id="1" loop="true" name="CloseSettingsHover" numframes="1" originx="36" originy="36" sync="false" version="2" width="72">
+            <poly data="4,0,72,72,72,72,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="CloseSettingsHover" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="72" id="2" loop="true" name="CloseSettingsClicked" numframes="1" originx="36" originy="36" sync="false" version="2" width="72">
+            <poly data="4,0,72,72,72,72,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="CloseSettingsClicked" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <background atlasID="0" desc="" durations="100" dx="-5.0" dy="-0.0" height="306" id="109" name="Clouds" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="816" xpf="0.0" ypf="0.0"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="6" fixedrot="false" fric="0.2" gid="3" id="13" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="ControlsButton" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="14" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="14" name="ControlsButton" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="ControlsButtonDefault" numframes="1" originx="63" originy="32" sync="false" version="2" width="126">
+            <poly data="4,0,64,126,64,126,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="ControlsButtonDefault" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="64" id="1" loop="true" name="ControlsButtonHover" numframes="1" originx="63" originy="32" sync="false" version="2" width="126">
+            <poly data="4,0,64,126,64,126,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="ControlsButtonHover" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="64" id="2" loop="true" name="ControlsButtonClicked" numframes="1" originx="63" originy="32" sync="false" version="2" width="126">
+            <poly data="4,0,64,126,64,126,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="ControlsButtonClicked" rest="0.0" sensor="true"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="17" fixedrot="false" fric="0.2" gid="3" id="29" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="ControlsWindow" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="30" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="30" name="ControlsWindow" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="323" id="0" loop="true" name="ControlsWindow" numframes="1" originx="137" originy="161" sync="false" version="2" width="274">
+            <poly data="4,0,323,274,323,274,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="ControlsWindow" rest="0.0" sensor="true"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="51" fixedrot="true" fric="0.2" gid="3" id="106" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Double Rock" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="107" static="false">
+        <snippets>
+            <s enabled="true" id="39">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="107" name="Double Rock" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="55" id="0" loop="true" name="Animation 0" numframes="1" originx="85" originy="27" sync="false" version="2" width="171">
+            <poly data="4,9,58,169,58,169,2,9,2" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="4" fixedrot="false" fric="0.2" gid="3" id="9" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="EndlessButton" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="10" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="10" name="EndlessButton" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="EndlessButtonDefault" numframes="1" originx="123" originy="32" sync="false" version="2" width="247">
+            <poly data="4,0,31,119,31,119,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="EndlessButtonDefault" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="64" id="1" loop="true" name="EndlessButtonHover" numframes="1" originx="123" originy="32" sync="false" version="2" width="247">
+            <poly data="4,0,64,247,64,247,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="EndlessButtonHover" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="64" id="2" loop="true" name="EndlessButtonClicked" numframes="1" originx="123" originy="32" sync="false" version="2" width="247">
+            <poly data="4,0,64,247,64,247,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 2" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="7" fixedrot="false" fric="0.2" gid="3" id="15" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="ExitButton" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="16" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="16" name="ExitButton" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="77" id="0" loop="true" name="ExitButtonDefault" numframes="1" originx="38" originy="38" sync="false" version="2" width="77">
+            <poly data="4,0,77,77,77,77,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="ExitButtonDefault" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="77" id="1" loop="true" name="ExitButtonHover" numframes="1" originx="38" originy="38" sync="false" version="2" width="77">
+            <poly data="4,0,77,77,77,77,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="ExitButtonHover" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="77" id="2" loop="true" name="ExitButtonClicked" numframes="1" originx="38" originy="38" sync="false" version="2" width="77">
+            <poly data="4,0,77,77,77,77,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="ExitButtonClicked" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <music atlasID="0" desc="" id="83" loop="true" name="Game Over" oid="-1" pan="0" shared="false" stream="true" type="mp3" volume="1"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="2" fixedrot="false" fric="0.2" gid="3" id="3" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="GameLogo" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="4" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="4" name="GameLogo" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="800" id="0" loop="true" name="LogoDefault" numframes="1" originx="711" originy="400" sync="false" version="2" width="1423">
+            <poly data="4,0,800,1423,800,1423,0,0,0" density="0.1" fric="0.2" gid="1" id="0" name="LogoDefault" rest="0.0" sensor="true"/>
+        </anim>
+    </sprite>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="534" id="98" name="GameOverBackground" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="950" xpf="1.0" ypf="1.0"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="48" fixedrot="false" fric="0.2" gid="3" id="99" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="GameOverText" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="100" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="100" name="GameOverText" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="124" id="0" loop="true" name="GameOverTextDefault" numframes="1" originx="229" originy="62" sync="false" version="2" width="459">
+            <poly data="4,0,124,459,124,459,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="GameOverTextDefault" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <music atlasID="0" desc="" id="88" loop="true" name="Hit" oid="-1" pan="0" shared="false" stream="true" type="mp3" volume="1"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="31" fixedrot="false" fric="0.2" gid="3" id="53" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="HomeButton" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="54" static="false">
+        <snippets>
+            <s enabled="true" id="34">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="HomeButton"/>
+                <prop id="4" list="0" val="HomeButtonClicked"/>
+                <prop id="5" list="0" val="false"/>
+                <prop id="6" list="0" val="HomeButtonHover"/>
+                <prop id="7" list="0" val=""/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="54" name="HomeButton" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="42" id="0" loop="true" name="HomeButton" numframes="1" originx="21" originy="21" sync="false" version="2" width="42">
+            <poly data="4,0,42,42,42,42,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="HomeButton" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="45" id="1" loop="true" name="HomeButtonHover" numframes="1" originx="22" originy="22" sync="false" version="2" width="45">
+            <poly data="4,0,45,45,45,45,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="HomeButtonHover" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="45" id="2" loop="true" name="HomeButtonClicked" numframes="1" originx="22" originy="22" sync="false" version="2" width="45">
+            <poly data="4,0,45,45,45,45,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 2" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <tileset across="2" atlasID="0" desc="" down="2" id="72" name="Ice Ground" oid="-1" readable="false" shared="false" th="32" tw="32">
+        <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="1" id="1" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="2" id="2" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="3" id="3" order="-1"/>
+    </tileset>
+    <music atlasID="0" desc="" id="87" loop="true" name="Jump" oid="-1" pan="0" shared="false" stream="true" type="mp3" volume="1"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="50" fixedrot="true" fric="0.2" gid="3" id="104" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="LargeRock" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="105" static="false">
+        <snippets>
+            <s enabled="true" id="39">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="105" name="LargeRock" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="78" id="0" loop="true" name="Animation 0" numframes="1" originx="59" originy="39" sync="false" version="2" width="118">
+            <poly data="4,10,77,109,77,89,33,37,7" density="0.1" fric="0.2" gid="-1000" id="0" name="" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <music atlasID="0" desc="" id="84" loop="true" name="Level Completed" oid="-1" pan="0" shared="false" stream="true" type="mp3" volume="1"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="10" fixedrot="false" fric="0.2" gid="3" id="19" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Level1Button" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="20" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="20" name="Level1Button" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="108" id="0" loop="true" name="Level1ButtonDefault" numframes="1" originx="54" originy="54" sync="false" version="2" width="108">
+            <poly data="4,0,108,108,108,108,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Level1ButtonDefault" rest="0.0" sensor="true"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="108" id="1" loop="true" name="Level1ButtonHover" numframes="1" originx="54" originy="54" sync="false" version="2" width="108">
+            <poly data="4,0,108,108,108,108,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Level1ButtonHover" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="108" id="2" loop="true" name="Level1ButtonClicked" numframes="1" originx="53" originy="54" sync="false" version="2" width="107">
+            <poly data="4,0,108,107,108,107,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Level1ButtonClicked" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="15" fixedrot="false" fric="0.2" gid="3" id="27" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Level2Button" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="28" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="28" name="Level2Button" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="108" id="0" loop="true" name="Level2Button" numframes="1" originx="54" originy="54" sync="false" version="2" width="108">
+            <poly data="4,0,108,108,108,108,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="true"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="108" id="1" loop="true" name="Level2ButtonHover" numframes="1" originx="54" originy="54" sync="false" version="2" width="108">
+            <poly data="4,0,108,108,108,108,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Level2ButtonHover" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="108" id="2" loop="true" name="Level2ButtonClicked" numframes="1" originx="54" originy="54" sync="false" version="2" width="108">
+            <poly data="4,0,108,108,108,108,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Level2ButtonClicked" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="3" fixedrot="false" fric="0.2" gid="3" id="7" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="LevelsButton" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="8" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="8" name="LevelsButton" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="LevelsButtonDefault" numframes="1" originx="123" originy="32" sync="false" version="2" width="246">
+            <poly data="4,0,31,119,31,119,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="LevelsButtonDefault" rest="0.0" sensor="true"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="64" id="1" loop="true" name="LevelsButtonHover" numframes="1" originx="123" originy="32" sync="false" version="2" width="247">
+            <poly data="4,0,64,247,64,247,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="LevelsButtonHover" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="64" id="2" loop="true" name="LevelsButtonClicked" numframes="1" originx="123" originy="32" sync="false" version="2" width="247">
+            <poly data="4,0,64,247,64,247,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="LevelsButtonClicked" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="30" fixedrot="false" fric="0.2" gid="3" id="51" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="LevelsButtonInGame" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="52" static="false">
+        <snippets>
+            <s enabled="true" id="34">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="LevelsButtonInGame"/>
+                <prop id="4" list="0" val="LevelsButtonInGameClicked"/>
+                <prop id="5" list="0" val="false"/>
+                <prop id="6" list="0" val="LevelsButtonInGameHover"/>
+                <prop id="7" list="0" val=""/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="52" name="LevelsButtonInGame" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="72" id="0" loop="true" name="LevelsButtonInGame" numframes="1" originx="36" originy="36" sync="false" version="2" width="72">
+            <poly data="4,0,72,72,72,72,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="LevelsButtonInGame" rest="0.0" sensor="true"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="77" id="1" loop="true" name="LevelsButtonInGameHover" numframes="1" originx="38" originy="38" sync="false" version="2" width="77">
+            <poly data="4,0,77,77,77,77,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="LevelsButtonInGameHover" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="77" id="2" loop="true" name="LevelsButtonInGameClicked" numframes="1" originx="38" originy="38" sync="false" version="2" width="77">
+            <poly data="4,0,77,77,77,77,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="LevelsButtonInGameClicked" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="9" fixedrot="false" fric="0.2" gid="3" id="17" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="LevelsWindow" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="18" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="18" name="LevelsWindow" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="323" id="0" loop="true" name="LevelsWindow" numframes="1" originx="137" originy="161" sync="false" version="2" width="274">
+            <poly data="4,0,323,274,323,274,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="LevelsWindow" rest="0.0" sensor="true"/>
+        </anim>
+    </sprite>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="540" id="67" name="Menu" numframes="1" oid="-1" readable="false" repeats="false" resized="false" shared="false" width="1799" xpf="1.0" ypf="1.0"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="1" fixedrot="false" fric="0.2" gid="3" id="1" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="MenuBackground" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="2" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="2" name="MenuBackground" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="500" id="0" loop="true" name="MenuDefault" numframes="1" originx="250" originy="250" sync="false" version="2" width="500">
+            <poly data="4,0,500,500,500,500,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="MenuDefault" rest="0.0" sensor="true"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="35" fixedrot="false" fric="0.2" gid="3" id="59" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="MusicToggle" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="60" static="false">
+        <snippets>
+            <s enabled="false" id="36">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="MusicToggleOn"/>
+                <prop id="4" list="0" val="MusicToggleONClicked"/>
+                <prop id="5" list="0" val="false"/>
+                <prop id="6" list="0" val="MusicToggleONHover"/>
+                <prop id="7" list="0" val="MusicToggleOff"/>
+                <prop id="10" list="0" val="false"/>
+                <prop id="11" list="0" val="MusicToggleOffClicked"/>
+                <prop id="12" list="0" val="MusicToggleOffHover"/>
+                <prop id="13" list="0" val=""/>
+                <prop id="14" list="0" val=""/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="60" name="MusicToggle" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="72" id="0" loop="true" name="MusicToggleOn" numframes="1" originx="36" originy="36" sync="false" version="2" width="72">
+            <poly data="4,0,72,72,72,72,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="MusicToggleOn" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="72" id="1" loop="true" name="MusicToggleOff" numframes="1" originx="36" originy="36" sync="false" version="2" width="72">
+            <poly data="4,0,72,72,72,72,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="MusicToggleOff" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="77" id="2" loop="true" name="MusicToggleONHover" numframes="1" originx="38" originy="38" sync="false" version="2" width="77">
+            <poly data="4,0,77,77,77,77,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="MusicToggleONHover" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="77" id="3" loop="true" name="MusicToggleONClicked" numframes="1" originx="38" originy="38" sync="false" version="2" width="77">
+            <poly data="4,0,77,77,77,77,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="MusicToggleONClicked" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="77" id="4" loop="true" name="MusicToggleOffHover" numframes="1" originx="38" originy="38" sync="false" version="2" width="77">
+            <poly data="4,0,77,77,77,77,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="MusicToggleOffHover" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="153" id="5" loop="true" name="MusicToggleOffClicked" numframes="1" originx="77" originy="76" sync="false" version="2" width="154">
+            <poly data="4,0,153,154,153,154,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="MusicToggleOffClicked" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <font alphabet=" !&quot;#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſ" atlasID="0" desc="" height="123" id="110" name="Paused" offsets="0|0|0|,10|0|10,18|0|18,33|0|33,51|0|51,68|0|68,100|0|100,128|0|128,135|0|135,147|0|147,159|0|159,175|0|175,196|0|196,204|0|204,216|0|216,224|0|224,235|0|235,252|0|252,266|0|266,283|0|283,300|0|300,318|0|318,335|0|335,352|0|352,369|0|369,386|0|386,403|0|403,410|0|410,419|0|419,440|0|440,461|0|461,482|0|482,497|0|497,529|0|529,555|0|555,579|0|579,603|0|603,628|0|628,651|0|651,673|0|673,700|0|700,728|0|728,742|0|742,761|0|761,790|0|790,814|0|814,848|0|848,874|0|874,900|0|900,922|0|922,948|0|948,975|0|975,994|0|994,1017|0|1017,1043|0|1043,1069|0|1069,1105|0|1105,1132|0|1132,1158|0|1158,1182|0|1182,1191|0|1191,1202|0|1202,1211|0|1211,1228|0|1228,1248|0|1248,1257|0|1257,1274|0|1274,1293|0|1293,1308|0|1308,1327|0|1327,1342|0|1342,1357|0|1357,1374|0|1374,1393|0|1393,1404|0|1404,1415|0|1415,1435|0|1435,1446|0|1446,1475|0|1475,1494|0|1494,1511|0|1511,1530|0|1530,1549|0|1549,1564|0|1564,1577|0|1577,1590|0|1590,1609|0|1609,1628|0|1628,1654|0|1654,1672|0|1672,1691|0|1691,1707|0|1707,1719|0|1719,1723|0|1723,1735|0|1735,1755|0|1755,1774|0|1774,1775|0|1775,1776|0|1776,1777|0|1777,1778|0|1778,1779|0|1779,1780|0|1780,1781|0|1781,1782|0|1782,1783|0|1783,1784|0|1784,1785|0|1785,1786|0|1786,1787|0|1787,1788|0|1788,1789|0|1789,1790|0|1790,1791|0|1791,1792|0|1792,1793|0|1793,1794|0|1794,1795|0|1795,1796|0|1796,1797|0|1797,1798|0|1798,1799|0|1799,1800|0|1800,1801|0|1801,1802|0|1802,1803|0|1803,1804|0|1804,1805|0|1805,1806|0|1806,1816|0|1816,1824|0|1824,1839|0|1839,1857|0|1857,1876|0|1876,1895|0|1895,1899|0|1899,1915|0|1915,1928|0|1928,1954|0|1954,1966|0|1966,1984|0|1984,2005|0|2005,2017|0|2017,2043|0|2043,2063|0|2063,2076|0|2076,2096|0|2096,2107|0|2107,2118|0|2118,2127|0|2127,2147|0|2147,2167|0|2167,2174|0|2174,2182|0|2182,2192|0|2192,2204|0|2204,2222|0|2222,2248|0|2248,2274|0|2274,2301|0|2301,2317|0|2317,2343|0|2343,2369|0|2369,2395|0|2395,2421|0|2421,2447|0|2447,2473|0|2473,2509|0|2509,2533|0|2533,2556|0|2556,2579|0|2579,2602|0|2602,2625|0|2625,2639|0|2639,2653|0|2653,2667|0|2667,2681|0|2681,2706|0|2706,2732|0|2732,2758|0|2758,2784|0|2784,2810|0|2810,2836|0|2836,2862|0|2862,2879|0|2879,2905|0|2905,2931|0|2931,2957|0|2957,2983|0|2983,3009|0|3009,3035|0|3035,0|41|3057,19|41|3076,36|41|3093,53|41|3110,70|41|3127,87|41|3144,104|41|3161,121|41|3178,146|41|3203,161|41|3218,176|41|3233,191|41|3248,206|41|3263,221|41|3278,233|41|3290,245|41|3302,258|41|3315,271|41|3328,288|41|3345,307|41|3364,324|41|3381,341|41|3398,358|41|3415,375|41|3432,392|41|3449,412|41|3469,429|41|3486,448|41|3505,467|41|3524,486|41|3543,505|41|3562,524|41|3581,543|41|3600,562|41|3619,588|41|3645,605|41|3662,631|41|3688,648|41|3705,674|41|3731,691|41|3748,715|41|3772,730|41|3787,754|41|3811,769|41|3826,793|41|3850,808|41|3865,832|41|3889,847|41|3904,872|41|3929,898|41|3955,923|41|3980,942|41|3999,965|41|4022,980|41|4037,1003|41|4060,1018|41|4075,1041|41|4098,1056|41|4113,1079|41|4136,1094|41|4151,1117|41|4174,1132|41|4189,1159|41|4216,1176|41|4233,1203|41|4260,1220|41|4277,1247|41|4304,1264|41|4321,1291|41|4348,1308|41|4365,1336|41|4393,1355|41|4412,1383|41|4440,1402|41|4459,1416|41|4473,1429|41|4486,1443|41|4500,1456|41|4513,1470|41|4527,1483|41|4540,1497|41|4554,1508|41|4565,1522|41|4579,1533|41|4590,1563|41|4620,1581|41|4638,1600|41|4657,1614|41|4671,1643|41|4700,1663|41|4720,1683|41|4740,1707|41|4764,1718|41|4775,1742|41|4799,1753|41|4810,1777|41|4834,1794|41|4851,1818|41|4875,1833|41|4890,1857|41|4914,1868|41|4925,1894|41|4951,1913|41|4970,1939|41|4996,1958|41|5015,1984|41|5041,2003|41|5060,2031|41|5088,2058|41|5115,2075|41|5132,2101|41|5158,2118|41|5175,2144|41|5201,2161|41|5218,2187|41|5244,2204|41|5261,2238|41|5295,2263|41|5320,2290|41|5347,2305|41|5362,2332|41|5389,2347|41|5404,2374|41|5431,2389|41|5446,2408|41|5465,2421|41|5478,2440|41|5497,2453|41|5510,2472|41|5529,2485|41|5542,2504|41|5561,2517|41|5574,2540|41|5597,2553|41|5610,2576|41|5633,2595|41|5652,2618|41|5675,2631|41|5688,2657|41|5714,2676|41|5733,2702|41|5759,2721|41|5778,2747|41|5804,2766|41|5823,2792|41|5849,2811|41|5868,2837|41|5894,2856|41|5913,2882|41|5939,2901|41|5958,2937|41|5994,2963|41|6020,2989|41|6046,0|82|6065,26|82|6091,50|82|6115,66|82|6131,90|82|6155,106|82|6171,130|82|6195,146|82|6211" oid="-1" prerendered="false" readable="false" rowHeight="41" shared="false"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="25" fixedrot="false" fric="0.2" gid="3" id="45" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="PausedWindow" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="46" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="46" name="PausedWindow" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="248" id="0" loop="true" name="PausedWindowDefault" numframes="1" originx="137" originy="124" sync="false" version="2" width="274">
+            <poly data="4,0,248,274,248,274,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="PausedWindowDefault" rest="0.0" sensor="true"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="43" fixedrot="false" fric="0.2" gid="3" id="75" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Penguin" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="76" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="76" name="Penguin" readable="false" shared="false">
+        <anim across="2" down="2" durations="100,100,100,100" height="128" id="0" loop="true" name="Walk" numframes="4" originx="36" originy="32" sync="false" version="2" width="144">
+            <poly data="4,0,64,72,64,72,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Walk" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="2" down="2" durations="100,100,100" height="128" id="1" loop="false" name="Jump" numframes="3" originx="36" originy="32" sync="false" version="2" width="144">
+            <poly data="4,0,64,72,64,72,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Jump" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="2" down="1" durations="100,100" height="64" id="2" loop="false" name="Slide" numframes="2" originx="36" originy="32" sync="false" version="2" width="144">
+            <poly data="4,0,65,72,65,72,15,0,15" density="0.1" fric="0.2" gid="-1000" id="0" name="Slide" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="2" down="2" durations="100,100,100" height="128" id="3" loop="false" name="RevJump" numframes="3" originx="36" originy="32" sync="false" version="2" width="144">
+            <poly data="4,0,64,72,64,72,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Jump" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="2" down="1" durations="100,100" height="64" id="4" loop="false" name="RevSlide" numframes="2" originx="36" originy="32" sync="false" version="2" width="144">
+            <poly data="4,0,65,72,65,72,15,0,15" density="0.1" fric="0.2" gid="-1000" id="0" name="Slide" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="2" down="2" durations="100,100,100,100" height="128" id="5" loop="false" name="Die" numframes="4" originx="36" originy="32" sync="false" version="2" width="144">
+            <poly data="4,0,64,72,64,72,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Die" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="64" id="6" loop="true" name="Hurt" numframes="1" originx="36" originy="32" sync="false" version="2" width="72">
+            <poly data="4,0,64,72,64,72,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Hurt" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="28" fixedrot="false" fric="0.2" gid="3" id="47" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="RestartButton" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="48" static="false">
+        <snippets>
+            <s enabled="true" id="34">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="RestartButtonDefault"/>
+                <prop id="4" list="0" val="RestartButtonClicked"/>
+                <prop id="5" list="0" val="false"/>
+                <prop id="6" list="0" val="RestartButtonHover"/>
+                <prop id="7" list="0" val=""/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="48" name="RestartButton" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="72" id="0" loop="true" name="RestartButtonDefault" numframes="1" originx="36" originy="36" sync="false" version="2" width="72">
+            <poly data="4,0,72,72,72,72,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="RestartButtonDefault" rest="0.0" sensor="true"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="77" id="1" loop="true" name="RestartButtonHover" numframes="1" originx="38" originy="38" sync="false" version="2" width="77">
+            <poly data="4,0,77,77,77,77,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="RestartButtonHover" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="77" id="2" loop="true" name="RestartButtonClicked" numframes="1" originx="38" originy="38" sync="false" version="2" width="77">
+            <poly data="4,0,77,77,77,77,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="RestartButtonClicked" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="29" fixedrot="false" fric="0.2" gid="3" id="49" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="ResumeButton" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="50" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="50" name="ResumeButton" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="72" id="0" loop="true" name="ResumeButton" numframes="1" originx="36" originy="36" sync="false" version="2" width="72">
+            <poly data="4,0,72,72,72,72,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="ResumeButton" rest="0.0" sensor="true"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="77" id="1" loop="true" name="ResumeButtonHover" numframes="1" originx="38" originy="38" sync="false" version="2" width="77">
+            <poly data="4,0,77,77,77,77,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="ResumeButtonHover" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="77" id="2" loop="true" name="ResumeButtonClicked" numframes="1" originx="38" originy="38" sync="false" version="2" width="77">
+            <poly data="4,0,77,77,77,77,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="ResumeButtonClicked" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="42" fixedrot="true" fric="0.2" gid="3" id="77" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="Rock1" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="78" static="false">
+        <snippets>
+            <s enabled="true" id="39">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="78" name="Rock1" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="70" id="0" loop="true" name="Idle" numframes="1" originx="35" originy="35" sync="false" version="2" width="70">
+            <poly data="4,0,68,70,68,70,28,0,28" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="41" fixedrot="true" fric="0.2" gid="3" id="79" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="Rock2" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="80" static="false">
+        <snippets>
+            <s enabled="true" id="39">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="80" name="Rock2" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="70" id="0" loop="true" name="Idle" numframes="1" originx="35" originy="35" sync="false" version="2" width="70">
+            <poly data="5,12,55,11,70,65,70,55,26,38,24" density="0.1" fric="0.2" gid="-1000" id="0" name="" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <font alphabet=" !&quot;#$%&amp;'()*+,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſ" atlasID="0" desc="" height="68" id="101" name="ScoreText" offsets="0|0|0|,19|0|19,26|0|26,38|0|38,55|0|55,70|0|70,85|0|85,100|0|100,105|0|105,114|0|114,123|0|123,138|0|138,155|0|155,163|0|163,178|0|178,185|0|185,200|0|200,215|0|215,230|0|230,246|0|246,261|0|261,276|0|276,292|0|292,307|0|307,322|0|322,337|0|337,352|0|352,359|0|359,368|0|368,387|0|387,406|0|406,425|0|425,439|0|439,453|0|453,474|0|474,493|0|493,511|0|511,529|0|529,547|0|547,565|0|565,584|0|584,603|0|603,618|0|618,637|0|637,657|0|657,675|0|675,696|0|696,716|0|716,735|0|735,753|0|753,772|0|772,792|0|792,809|0|809,826|0|826,845|0|845,866|0|866,887|0|887,906|0|906,925|0|925,940|0|940,949|0|949,964|0|964,973|0|973,988|0|988,1011|0|1011,1018|0|1018,1036|0|1036,1056|0|1056,1074|0|1074,1094|0|1094,1112|0|1112,1129|0|1129,1148|0|1148,1167|0|1167,1184|0|1184,1197|0|1197,1215|0|1215,1232|0|1232,1253|0|1253,1272|0|1272,1289|0|1289,1309|0|1309,1328|0|1328,1346|0|1346,1361|0|1361,1378|0|1378,1397|0|1397,1417|0|1417,1438|0|1438,1457|0|1457,1476|0|1476,1491|0|1491,1500|0|1500,1505|0|1505,1515|0|1515,1532|0|1532,1548|0|1548,1549|0|1549,1550|0|1550,1551|0|1551,1552|0|1552,1553|0|1553,1554|0|1554,1555|0|1555,1556|0|1556,1557|0|1557,1558|0|1558,1559|0|1559,1560|0|1560,1561|0|1561,1562|0|1562,1563|0|1563,1564|0|1564,1565|0|1565,1566|0|1566,1567|0|1567,1568|0|1568,1569|0|1569,1570|0|1570,1571|0|1571,1572|0|1572,1573|0|1573,1574|0|1574,1575|0|1575,1576|0|1576,1577|0|1577,1578|0|1578,1579|0|1579,1580|0|1580,1599|0|1599,1606|0|1606,1621|0|1621,1639|0|1639,1654|0|1654,1673|0|1673,1678|0|1678,1695|0|1695,1706|0|1706,1727|0|1727,1739|0|1739,1756|0|1756,1775|0|1775,1790|0|1790,1811|0|1811,1834|0|1834,1845|0|1845,1862|0|1862,1872|0|1872,1883|0|1883,1890|0|1890,1909|0|1909,1926|0|1926,1932|0|1932,1939|0|1939,1950|0|1950,1963|0|1963,1981|0|1981,2000|0|2000,2023|0|2023,2042|0|2042,2056|0|2056,2077|0|2077,2098|0|2098,2119|0|2119,2140|0|2140,2161|0|2161,2182|0|2182,2203|0|2203,2221|0|2221,2239|0|2239,2257|0|2257,2275|0|2275,2293|0|2293,2308|0|2308,2323|0|2323,2338|0|2338,2353|0|2353,2372|0|2372,2392|0|2392,2411|0|2411,2430|0|2430,2449|0|2449,2468|0|2468,2487|0|2487,2500|0|2500,2519|0|2519,2538|0|2538,2557|0|2557,2576|0|2576,2595|0|2595,2614|0|2614,2632|0|2632,2649|0|2649,2667|0|2667,2685|0|2685,2703|0|2703,2721|0|2721,2739|0|2739,2757|0|2757,2778|0|2778,2796|0|2796,2814|0|2814,2832|0|2832,2850|0|2850,2868|0|2868,2885|0|2885,2902|0|2902,2919|0|2919,2936|0|2936,2953|0|2953,2972|0|2972,2989|0|2989,3006|0|3006,3023|0|3023,3040|0|3040,3057|0|3057,3074|0|3074,0|34|3093,19|34|3112,38|34|3131,57|34|3150,76|34|3169,95|34|3188,115|34|3208,134|34|3227,155|34|3248,173|34|3266,194|34|3287,212|34|3305,234|34|3327,253|34|3346,271|34|3364,289|34|3382,307|34|3400,325|34|3418,343|34|3436,361|34|3454,379|34|3472,397|34|3490,415|34|3508,438|34|3531,457|34|3550,477|34|3570,495|34|3588,513|34|3606,531|34|3624,549|34|3642,567|34|3660,585|34|3678,604|34|3697,622|34|3715,640|34|3733,658|34|3751,677|34|3770,696|34|3789,715|34|3808,734|34|3827,753|34|3846,772|34|3865,791|34|3884,810|34|3903,829|34|3922,848|34|3941,867|34|3960,886|34|3979,901|34|3994,918|34|4011,933|34|4026,950|34|4043,965|34|4058,982|34|4075,997|34|4090,1014|34|4107,1029|34|4122,1046|34|4139,1065|34|4158,1084|34|4177,1103|34|4196,1116|34|4209,1136|34|4229,1154|34|4247,1173|34|4266,1191|34|4284,1208|34|4301,1226|34|4319,1243|34|4336,1261|34|4354,1278|34|4371,1296|34|4389,1313|34|4406,1331|34|4424,1348|34|4441,1368|34|4461,1387|34|4480,1407|34|4500,1426|34|4519,1446|34|4539,1465|34|4558,1485|34|4578,1503|34|4596,1519|34|4612,1538|34|4631,1555|34|4648,1574|34|4667,1591|34|4684,1610|34|4703,1627|34|4720,1648|34|4741,1669|34|4762,1689|34|4782,1707|34|4800,1727|34|4820,1745|34|4838,1765|34|4858,1783|34|4876,1800|34|4893,1815|34|4908,1832|34|4925,1847|34|4940,1864|34|4957,1879|34|4972,1896|34|4989,1911|34|5004,1928|34|5021,1945|34|5038,1962|34|5055,1981|34|5074,1998|34|5091,2016|34|5109,2035|34|5128,2054|34|5147,2073|34|5166,2092|34|5185,2111|34|5204,2130|34|5223,2149|34|5242,2168|34|5261,2187|34|5280,2206|34|5299,2225|34|5318,2244|34|5337,2265|34|5358,2286|34|5379,2305|34|5398,2324|34|5417,2343|34|5436,2358|34|5451,2373|34|5466,2388|34|5481,2403|34|5496,2418|34|5511,2433|34|5526" oid="-1" prerendered="false" readable="false" rowHeight="34" shared="false"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="19" fixedrot="false" fric="0.2" gid="3" id="33" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="SettingsButtonHome" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="34" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="34" name="SettingsButtonHome" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="72" id="0" loop="true" name="SettingsButtonDefault" numframes="1" originx="36" originy="36" sync="false" version="2" width="72">
+            <poly data="4,0,72,72,72,72,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="SettingsButtonDefault" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="77" id="1" loop="true" name="SettingsButtonHover" numframes="1" originx="38" originy="38" sync="false" version="2" width="77">
+            <poly data="4,0,77,77,77,77,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="SettingsButtonHover" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="77" id="2" loop="true" name="SettingsButtonClicked" numframes="1" originx="38" originy="38" sync="false" version="2" width="77">
+            <poly data="4,0,77,77,77,77,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="SettingsButtonClicked" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="21" fixedrot="false" fric="0.2" gid="3" id="35" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="SettingsWindowHome" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="36" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="36" name="SettingsWindowHome" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="214" id="0" loop="true" name="SettingsWindowsHome" numframes="1" originx="137" originy="107" sync="false" version="2" width="274">
+            <poly data="4,0,323,274,323,274,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="SettingsWindowsHome" rest="0.0" sensor="true"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="37" fixedrot="false" fric="0.2" gid="3" id="63" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="SFXToggle" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="64" static="false">
+        <snippets>
+            <s enabled="false" id="36">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="MusicToggleOn"/>
+                <prop id="4" list="0" val="MusicToggleONClicked"/>
+                <prop id="5" list="0" val="false"/>
+                <prop id="6" list="0" val="MusicToggleONHover"/>
+                <prop id="7" list="0" val="MusicToggleOff"/>
+                <prop id="10" list="0" val="false"/>
+                <prop id="11" list="0" val="MusicToggleOffClicked"/>
+                <prop id="12" list="0" val="MusicToggleOffHover"/>
+                <prop id="13" list="0" val=""/>
+                <prop id="14" list="0" val=""/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="64" name="SFXToggle" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="72" id="0" loop="true" name="MusicToggleOn" numframes="1" originx="36" originy="36" sync="false" version="2" width="72">
+            <poly data="4,0,72,72,72,72,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="MusicToggleOn" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="72" id="1" loop="true" name="MusicToggleOff" numframes="1" originx="36" originy="36" sync="false" version="2" width="72">
+            <poly data="4,0,72,72,72,72,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="MusicToggleOff" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="77" id="2" loop="true" name="MusicToggleONHover" numframes="1" originx="38" originy="38" sync="false" version="2" width="77">
+            <poly data="4,0,77,77,77,77,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="MusicToggleONHover" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="77" id="3" loop="true" name="MusicToggleONClicked" numframes="1" originx="38" originy="38" sync="false" version="2" width="77">
+            <poly data="4,0,77,77,77,77,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="MusicToggleONClicked" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="77" id="4" loop="true" name="MusicToggleOffHover" numframes="1" originx="38" originy="38" sync="false" version="2" width="77">
+            <poly data="4,0,77,77,77,77,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="MusicToggleOffHover" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="153" id="5" loop="true" name="MusicToggleOffClicked" numframes="1" originx="77" originy="76" sync="false" version="2" width="154">
+            <poly data="4,0,153,154,153,154,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="MusicToggleOffClicked" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <background atlasID="0" desc="" durations="100" dx="-5.0" dy="-0.0" height="480" id="108" name="SnowyMountains" numframes="1" oid="-1" readable="false" repeats="true" resized="false" shared="false" width="6400" xpf="1.0" ypf="1.0"/>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="40" fixedrot="true" fric="0.2" gid="3" id="73" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="Spikes" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="74" static="false">
+        <snippets>
+            <s enabled="true" id="39">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="74" name="Spikes" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="70" id="0" loop="true" name="Animation 0" numframes="1" originx="35" originy="35" sync="false" version="2" width="70">
+            <poly data="4,13,36,0,70,69,69,59,37" density="0.1" fric="0.2" gid="-1000" id="1" name="" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="33" fixedrot="false" fric="0.2" gid="3" id="57" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="VolumeUp" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="58" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="58" name="VolumeUp" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="24" id="0" loop="true" name="UpDefault" numframes="1" originx="12" originy="12" sync="false" version="2" width="24">
+            <poly data="4,0,24,24,24,24,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="UpDefault" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="25" id="1" loop="true" name="UpHover" numframes="1" originx="12" originy="12" sync="false" version="2" width="25">
+            <poly data="4,0,25,25,25,25,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="UpHover" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="25" id="2" loop="true" name="UpClicked" numframes="1" originx="12" originy="12" sync="false" version="2" width="25">
+            <poly data="4,0,25,25,25,25,0,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="UpClicked" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+</pack>

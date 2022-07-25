@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="1" desc="" eventsnippetid="0" extheight="544" extwidth="704" extx="-32" exty="-32" format="4.0.1" gravx="-0.0" gravy="0.0" height="480" id="0" name="MainMenu" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="640">
+    <layers>
+        <color-bg blue="255" green="255" red="255"/>
+        <background blendMode="normal" customScrollFactor="false" id="1" locked="true" name="Menu" opacity="100" order="1" rid="67" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+    </layers>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="2" c="false" group="3" id="3" name="GameLogo 2" order="0" sx="0.4025" sy="0.4025" x="-391" y="-235" z="0"/>
+        <actor a="0.0" aid="3" c="false" group="3" id="7" name="LevelsButton 3" order="1" sx="0.60162604" sy="0.60162604" x="198" y="277" z="0"/>
+        <actor a="0.0" aid="4" c="false" group="3" id="9" name="EndlessButton 4" order="2" sx="0.6097561" sy="0.6097561" x="197" y="322" z="0"/>
+        <actor a="0.0" aid="5" c="false" group="3" id="11" name="AboutUsButton 5" order="3" sx="0.6178862" sy="0.6178862" x="198" y="367" z="0"/>
+        <actor a="0.0" aid="6" c="false" group="3" id="13" name="ControlsButton 6" order="4" sx="0.6875" sy="0.6875" x="-14" y="411" z="0"/>
+        <actor a="0.0" aid="8" c="false" group="3" id="33" name="SettingsButtonHome 8" order="5" sx="0.6388889" sy="0.6388889" x="87" y="406" z="0"/>
+    </actors>
+    <snippets>
+        <s enabled="true" id="45"/>
+    </snippets>
+    <terrain/>
+    <atlases members="" retainAtlases="true"/>
+</scene>

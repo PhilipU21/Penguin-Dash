@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <event-mouse-enter-exit-actor comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <setanim comment="false" x="26" y="42">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="UpHover"/>
+                </setanim>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="0"/>
+        </event-mouse-enter-exit-actor>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <event-mouse-enter-exit-actor comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <setanim comment="false" x="26" y="42">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="UpDefault"/>
+                </setanim>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="1"/>
+        </event-mouse-enter-exit-actor>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <event-mouse-enter-exit-actor comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <setanim comment="false" x="26" y="42">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="UpClicked"/>
+                </setanim>
+                <if comment="false" x="26" y="69">
+                    <group eventID="3" id="-1">
+                        <setanim comment="false" x="37" y="99">
+                            <ACTOR eid="var" id="0" vid="1"/>
+                            <int id="1" val="MusicBar1"/>
+                        </setanim>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-33-2 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="0"/>
+                    </eq>
+                </if>
+                <if comment="false" x="26" y="138">
+                    <group eventID="3" id="-1">
+                        <setanim comment="false" x="37" y="168">
+                            <ACTOR eid="var" id="0" vid="1"/>
+                            <int id="1" val="MusicBar2"/>
+                        </setanim>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-33-2 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="1"/>
+                    </eq>
+                </if>
+                <if comment="false" x="26" y="207">
+                    <group eventID="3" id="-1">
+                        <setanim comment="false" x="37" y="237">
+                            <ACTOR eid="var" id="0" vid="1"/>
+                            <int id="1" val="MusicBar3"/>
+                        </setanim>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-33-2 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="2"/>
+                    </eq>
+                </if>
+                <if comment="false" x="26" y="276">
+                    <group eventID="3" id="-1">
+                        <setanim comment="false" x="37" y="306">
+                            <ACTOR eid="var" id="0" vid="1"/>
+                            <int id="1" val="MusicBar4"/>
+                        </setanim>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-33-2 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="3"/>
+                    </eq>
+                </if>
+                <if comment="false" x="26" y="345">
+                    <group eventID="3" id="-1">
+                        <setanim comment="false" x="37" y="375">
+                            <ACTOR eid="var" id="0" vid="1"/>
+                            <int id="1" val="MusicBar5"/>
+                        </setanim>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-33-2 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="4"/>
+                    </eq>
+                </if>
+                <if comment="false" x="26" y="414">
+                    <group eventID="3" id="-1">
+                        <setanim comment="false" x="37" y="444">
+                            <ACTOR eid="var" id="0" vid="1"/>
+                            <int id="1" val="MusicBar6"/>
+                        </setanim>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-33-2 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="5"/>
+                    </eq>
+                </if>
+                <if comment="false" x="26" y="483">
+                    <group eventID="3" id="-1">
+                        <setanim comment="false" x="37" y="513">
+                            <ACTOR eid="var" id="0" vid="1"/>
+                            <int id="1" val="MusicBar7"/>
+                        </setanim>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-33-2 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="6"/>
+                    </eq>
+                </if>
+                <if comment="false" x="26" y="552">
+                    <group eventID="3" id="-1">
+                        <setanim comment="false" x="37" y="582">
+                            <ACTOR eid="var" id="0" vid="1"/>
+                            <int id="1" val="MusicBar8"/>
+                        </setanim>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-33-2 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="7"/>
+                    </eq>
+                </if>
+                <if comment="false" x="26" y="621">
+                    <group eventID="3" id="-1">
+                        <setanim comment="false" x="37" y="651">
+                            <ACTOR eid="var" id="0" vid="1"/>
+                            <int id="1" val="MusicBar9"/>
+                        </setanim>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-33-2 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="8"/>
+                    </eq>
+                </if>
+                <if comment="false" x="26" y="690">
+                    <group eventID="3" id="-1">
+                        <setanim comment="false" x="37" y="720">
+                            <ACTOR eid="var" id="0" vid="1"/>
+                            <int id="1" val="MusicBar10"/>
+                        </setanim>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-33-2 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="9"/>
+                    </eq>
+                </if>
+                <if comment="false" x="26" y="759">
+                    <group eventID="3" id="-1">
+                        <setanim comment="false" x="37" y="789">
+                            <ACTOR eid="var" id="0" vid="1"/>
+                            <int id="1" val="MusicBar11"/>
+                        </setanim>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-33-2 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="10"/>
+                    </eq>
+                </if>
+                <if comment="false" x="26" y="828">
+                    <group eventID="3" id="-1">
+                        <setanim comment="false" x="37" y="858">
+                            <ACTOR eid="var" id="0" vid="1"/>
+                            <int id="1" val="MusicBar12"/>
+                        </setanim>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-33-2 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="11"/>
+                    </eq>
+                </if>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="2"/>
+        </event-mouse-enter-exit-actor>
+    </group>
+    <group eventID="3" id="-1"/>
+    <group eventID="4" id="0">
+        <event-mouse-enter-exit-actor comment="false" x="15" y="15">
+            <group eventID="4" id="-1">
+                <setanim comment="false" x="26" y="42">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="UpHover"/>
+                </setanim>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="4"/>
+        </event-mouse-enter-exit-actor>
+    </group>
+    <group eventID="4" id="-1"/>
+</groups>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="2" desc="" eventsnippetid="44" extheight="544" extwidth="704" extx="-32" exty="-32" format="4.0.1" gravx="-0.0" gravy="40.0" height="480" id="7" name="EndlessLevel" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="640">
+    <layers>
+        <grad-bg b1="255" b2="255" g1="0" g2="255" r1="0" r2="204"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="2" scrollFactorX="1.0" scrollFactorY="1.0" visible="false"/>
+        <background blendMode="normal" customScrollFactor="false" id="1" locked="true" name="SnowyMountains" opacity="100" order="1" rid="108" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="0,255,0" id="2" locked="false" name="Layer 2" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+    </layers>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="2" c="false" group="3" id="75" name="Penguin 2" order="0" sx="0.8333333" sy="0.78125" x="63" y="392" z="2"/>
+    </actors>
+    <snippets>
+        <s enabled="true" id="46"/>
+    </snippets>
+    <terrain>
+        <p pts="4,640.0,32.0,640.0,0.0,0.0,0.0,0.0,32.0" x="0.0" y="448.0"/>
+    </terrain>
+    <atlases members="" retainAtlases="true"/>
+</scene>

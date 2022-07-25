@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <draw comment="false" x="37" y="8">
+            <group eventID="1" id="-1">
+                <set-font-new comment="false" x="48" y="33">
+                    <font eid="101" id="0"/>
+                </set-font-new>
+                <draw-text comment="false" x="48" y="60">
+                    <str-combine comment="false" id="0" x="0" y="0">
+                        <int id="0" val="Score: "/>
+                        <tostring comment="false" id="1" x="0" y="0">
+                            <get-game-val-12 comment="false" id="0" x="0" y="0"/>
+                        </tostring>
+                    </str-combine>
+                    <minus comment="false" id="1" x="0" y="0">
+                        <minus comment="false" id="0" x="0" y="0">
+                            <div comment="false" id="0" x="0" y="0">
+                                <screen-wh comment="false" id="0" x="0" y="0">
+                                    <int id="0" val="0"/>
+                                </screen-wh>
+                                <int id="1" val="2"/>
+                            </div>
+                            <int id="1" val="20"/>
+                        </minus>
+                        <div comment="false" id="1" x="0" y="0">
+                            <get-font-width comment="false" id="0" x="0" y="0">
+                                <int id="0" val="Score: "/>
+                            </get-font-width>
+                            <int id="1" val="2"/>
+                        </div>
+                    </minus>
+                    <plus comment="false" id="2" x="0" y="0">
+                        <minus comment="false" id="0" x="0" y="0">
+                            <div comment="false" id="0" x="0" y="0">
+                                <screen-wh comment="false" id="0" x="0" y="0">
+                                    <int id="0" val="1"/>
+                                </screen-wh>
+                                <int id="1" val="2"/>
+                            </div>
+                            <get-font-height comment="false" id="1" x="0" y="0"/>
+                        </minus>
+                        <int id="1" val="50"/>
+                    </plus>
+                </draw-text>
+                <draw-text comment="false" x="48" y="108">
+                    <str-combine comment="false" id="0" x="0" y="0">
+                        <int id="0" val="Highscore: "/>
+                        <tostring comment="false" id="1" x="0" y="0">
+                            <get-game-val-16 comment="false" id="0" x="0" y="0"/>
+                        </tostring>
+                    </str-combine>
+                    <minus comment="false" id="1" x="0" y="0">
+                        <minus comment="false" id="0" x="0" y="0">
+                            <div comment="false" id="0" x="0" y="0">
+                                <screen-wh comment="false" id="0" x="0" y="0">
+                                    <int id="0" val="0"/>
+                                </screen-wh>
+                                <int id="1" val="2"/>
+                            </div>
+                            <int id="1" val="20"/>
+                        </minus>
+                        <div comment="false" id="1" x="0" y="0">
+                            <get-font-width comment="false" id="0" x="0" y="0">
+                                <int id="0" val="Highscore: "/>
+                            </get-font-width>
+                            <int id="1" val="2"/>
+                        </div>
+                    </minus>
+                    <plus comment="false" id="2" x="0" y="0">
+                        <minus comment="false" id="0" x="0" y="0">
+                            <div comment="false" id="0" x="0" y="0">
+                                <screen-wh comment="false" id="0" x="0" y="0">
+                                    <int id="0" val="1"/>
+                                </screen-wh>
+                                <int id="1" val="2"/>
+                            </div>
+                            <get-font-height comment="false" id="1" x="0" y="0"/>
+                        </minus>
+                        <int id="1" val="75"/>
+                    </plus>
+                </draw-text>
+            </group>
+        </draw>
+    </group>
+    <group eventID="1" id="-1"/>
+</groups>

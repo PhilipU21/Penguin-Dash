@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="1" id="-1">
+                        <stop-sounds comment="false" x="37" y="75"/>
+                        <play-sound-channel comment="false" x="37" y="95">
+                            <int id="0" val="1"/>
+                            <sound eid="81" id="1"/>
+                            <get-game-val-4 comment="false" id="2" x="0" y="0"/>
+                        </play-sound-channel>
+                        <set-volume-channel comment="false" x="37" y="127">
+                            <int id="0" val="15"/>
+                            <get-game-val-4 comment="false" id="1" x="0" y="0"/>
+                        </set-volume-channel>
+                        <set-game-val-2 comment="false" x="37" y="152">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-game-val-2>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <get-game-val-7 comment="false" id="0" x="0" y="0"/>
+                        <not comment="false" id="1" x="0" y="0">
+                            <get-game-val-2 comment="false" id="0" x="0" y="0"/>
+                        </not>
+                    </and>
+                </if>
+            </group>
+        </init>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="2" id="-1">
+                        <stop-sounds comment="false" x="37" y="75"/>
+                        <play-sound-channel comment="false" x="37" y="95">
+                            <int id="0" val="1"/>
+                            <sound eid="81" id="1"/>
+                            <get-game-val-4 comment="false" id="2" x="0" y="0"/>
+                        </play-sound-channel>
+                        <set-volume-channel comment="false" x="37" y="127">
+                            <int id="0" val="15"/>
+                            <get-game-val-4 comment="false" id="1" x="0" y="0"/>
+                        </set-volume-channel>
+                        <set-game-val-2 comment="false" x="37" y="152">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-game-val-2>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <get-game-val-7 comment="false" id="0" x="0" y="0"/>
+                        <not comment="false" id="1" x="0" y="0">
+                            <get-game-val-2 comment="false" id="0" x="0" y="0"/>
+                        </not>
+                    </and>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="2" id="-1"/>
+</groups>

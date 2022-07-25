@@ -1,0 +1,17 @@
+#
+#Mon May 23 02:32:32 SGT 2022
+shadow.x=0
+shadow.y=0
+color=\#ffff99
+stroke.color=\#000080
+shadow.blur=0
+stroke.size=0
+shadow.color=\#000000
+alphabet=
+gradient.offset=4
+size=30
+gradient.color=\#ffcc00
+antialias=true
+style=bold
+family=Monospaced
+chars=all
