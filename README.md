@@ -1,7 +1,7 @@
 # Penguin Dash
 
 <p align="center">
-  <a href="https://github.com/PhilipU13/Library-Management-System">
+  <a href="https://philipu.itch.io/penguin-dash">
     <img src="resources/4-0@4x.png" width="600" alt="Penguin Dash logo">
   </a>
 </p>
